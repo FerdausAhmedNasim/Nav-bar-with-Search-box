@@ -12,17 +12,30 @@
         } */
 
 
-        li, a{
+         li, a{
             list-style-type: none;
             text-decoration-line: none;
             margin-left: 2px;
-            border: 2px;
-            padding: 10px;
+
+            border: 1px;
+            padding: 1px; 
+        }
+
+         a:hover{
+            list-style-type: none;
+            text-decoration-line: none;
+            margin-left: 2px;
+
+            border: 1px;
+            padding: 1px; 
+
+            background-color: rgb(198, 198, 222);
         }
         nav{
             background-color: rgba(5, 70, 246, 0.291);
         }
 
+       
     </style>
 </head>
 <body>
@@ -37,7 +50,7 @@
                 </div> 
                 
                 <li><a href="./COURSES.html" target="opn">About US</a></li>
-                <a href="./ABOUT US.html" target="opn">Features</a>
+                <li><a href="./ABOUT US.html" target="opn">Features</a></li>
                 <li><a href="./CONTRACT US.html" target="opn">Contract US</a></li>
 
                 <div>
@@ -55,14 +68,13 @@
     
 
     <!-- A. Vertical Menu -->
-    <div style="width: 200px;background-color: beige;height: 400px;float: left;">
+    <div style="width: 200px;background-color: beige;height: 203px;float: left;">
         
         <ul>
-        <a href="./Home.html" target="opn">Home</a> <br> <br>                 
-        <label for="Upload Book">                  
-            <input type="file" name="" id="">
-        </label>                                                      
-        <a href="./ABOUT US.html" target="opn">The News</a> <br>          
+        <a href="./Home.html" target="opn">Home</a>                           
+         <P>Upload file:</P>                
+        <input type="file" name="" id="">                       <br> <br>                                                   
+        <a href="./ABOUT US.html" target="opn">About Us</a>     <br> <br>      
         <a href="./COURSES.html" target="opn">User Registration</a>   
         </ul>
 
@@ -73,7 +85,7 @@
     <!------Right Nav bar-------- must be (100% space - space 200px)ok--------------->
     <div style="width: calc(100% - 200px);background-color: rgb(247, 246, 244) ;float: left;">
        
-        <iframe name="opn" style="height: 400px; width: 100%;border: none;">
+        <iframe name="opn" style="height: 200px; width: 100%;border: none;">
         
         </iframe>
     </div>
